@@ -77,16 +77,17 @@
         align-items: flex-start;
         padding-left: 1rem;
         padding-right: 1rem;
+        gap: 0.5rem;
       }
       .contact-divider {
-        margin-top: 2rem;
+        margin-top: 0.5rem;
       }
     }
     .contact-details {
       display: flex;
       justify-content: space-between;
-      gap: 3rem;
       flex-wrap: wrap;
+      gap: 0rem;
     }
     .contact-details > div {
       display: flex;
@@ -96,14 +97,22 @@
     .contact-header {
       text-align: center;
       font-weight: bold;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.3rem;
     }
     .contact-divider {
       border: none;
       height: 1px;
       background-color: white;
       width: 80%;
-      margin: 0.5rem auto 2rem;
+      margin: 0.3rem auto;
+    }
+    .contact-footer {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -124,11 +133,10 @@
     <div class="contact-header">Bookings & inquiries</div>
     <hr class="contact-divider" />
     <div class="contact-details">
-      <div><strong>Email</strong><br>marko.bondarenko05@gmail.com</div>
-      <div><strong>Instagram</strong><br>@marko_poi_show</div>
+      <div><strong>Email:</strong> <a href="mailto:marko.bondarenko05@gmail.com">marko.bondarenko05@gmail.com</a></div>
+      <div><strong>Instagram:</strong> <a href="https://www.instagram.com/marko_poi_show/" target="_blank">@marko_poi_show</a></div>
     </div>
-    <br>
-    Feel free to share this link directly.
+    <div class="contact-footer">Feel free to share this link directly.</div>
   </div>
 </body>
 </html>
