@@ -38,7 +38,7 @@
       line-height: 1.5;
     }
     .contact {
-      text-align: left;
+      text-align: center;
       width: 100%;
       max-width: 700px;
     }
@@ -67,8 +67,7 @@
       h1 {
         text-align: center;
       }
-      p, .contact {
-        text-align: left;
+      p {
         padding-left: 1rem;
         padding-right: 1rem;
       }
@@ -77,24 +76,19 @@
         align-items: flex-start;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        gap: 0.5rem;
+        gap: 0.8rem;
+        text-align: left;
       }
       .contact-divider {
         margin-top: 0.5rem;
         width: calc(100% - 40px);
       }
     }
-    @media (min-width: 769px) {
-      .contact-details {
-        align-items: center;
-        text-align: center;
-      }
-    }
     .contact-details {
       display: flex;
       flex-direction: column;
-      gap: 0.2rem;
-      align-items: center;
+      gap: 0.5rem;
+      text-align: center;
     }
     .contact-header {
       text-align: center;
@@ -105,7 +99,7 @@
       border: none;
       height: 1px;
       background-color: white;
-      width: 300px;
+      width: 220px;
       margin: 0.3rem auto 1rem auto;
     }
     .contact-footer {
@@ -135,8 +129,8 @@
     <div class="contact-header">Bookings & inquiries</div>
     <hr class="contact-divider" />
     <div class="contact-details">
-      <div><strong>Email:</strong> <a href="mailto:marko.bondarenko05@gmail.com">marko.bondarenko05@gmail.com</a></div>
-      <div><strong>Instagram:</strong> <a href="https://www.instagram.com/marko_poi_show/" target="_blank">@marko_poi_show</a></div>
+      <div><strong>Email:</strong><br><a href="mailto:marko.bondarenko05@gmail.com">marko.bondarenko05@gmail.com</a></div>
+      <div><strong>Instagram:</strong><br><a href="https://www.instagram.com/marko_poi_show/" target="_blank">@marko_poi_show</a></div>
     </div>
     <div class="contact-footer">Feel free to share this link directly.</div>
   </div>
