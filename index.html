@@ -83,6 +83,21 @@
         padding-right: 1rem;
       }
     }
+      .contact-details {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+      .contact-details {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -99,9 +114,12 @@
     Perfect for weddings, private events, festivals, and more.
   </p>
   <div class="contact">
-    Bookings & inquiries: <br>
-    <strong>Email:</strong> marko.bondarenko05@gmail.com <br>
-    <strong>Instagram:</strong> @marko_poi_show <br>
+    <hr style="border: none; height: 1px; background-color: white; width: 80%; margin: 2rem auto;" />
+    <div style="text-align: center; font-weight: bold; margin-bottom: 1rem;">Bookings & inquiries</div>
+    <div class="contact-details">
+      <div><strong>Email</strong><br>marko.bondarenko05@gmail.com</div>
+      <div style="margin-top: 1rem;"><strong>Instagram</strong><br>@marko_poi_show</div>
+    </div>
     <br>
     Feel free to share this link directly.
   </div>
