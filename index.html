@@ -75,25 +75,26 @@
       .contact-details {
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
         gap: 0.5rem;
       }
       .contact-divider {
         margin-top: 0.5rem;
+        width: calc(100% - 40px);
+      }
+    }
+    @media (min-width: 769px) {
+      .contact-details {
+        align-items: center;
+        text-align: center;
       }
     }
     .contact-details {
       display: flex;
-      justify-content: space-between;
-      flex-wrap: nowrap;
-      gap: 1rem;
-    }
-    .contact-details > div {
-      display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      gap: 0.2rem;
       align-items: center;
-      gap: 0.5rem;
     }
     .contact-header {
       text-align: center;
@@ -104,8 +105,8 @@
       border: none;
       height: 1px;
       background-color: white;
-      width: 80%;
-      margin: 0.3rem auto;
+      width: 300px;
+      margin: 0.3rem auto 1rem auto;
     }
     .contact-footer {
       text-align: center;
